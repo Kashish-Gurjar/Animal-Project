@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Voice Recognition Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animal Voice Recognition Game</h1>
+        <div class="game-container">
+            <div class="image-container">
+                <img id="animalImage" src="" alt="Animal Image">
+            </div>
+            <p class="prompt">What is this animal?</p>
+            <div class="controls">
+                <button id="speakButton" class="btn">
+                    <span class="mic-icon">🎤</span> Speak
+                </button>
+                <button id="hintButton" class="btn">💡 Hint</button>
+            </div>
+            <div class="navigation">
+                <button id="prevButton" class="btn">← Previous</button>
+                <div class="score">Score: <span id="scoreValue">0</span></div>
+                <button id="nextButton" class="btn">Next →</button>
+            </div>
+            <p id="feedback" class="feedback"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
